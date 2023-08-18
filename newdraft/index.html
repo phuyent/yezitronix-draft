@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+<!-- The video -->
+<video autoplay muted loop id="myVideo">
+  <source src="C:\Users\jbloc\Downloads\Draft-main-page\yezitronix-draft\assets\videos\KIDNEY.mp4" type="video/mp4">
+</video>
+
+<div class="navigation">
+  <nav>
+    <div class="logo">Y.G.I</div>
+    <div class="nav-items">
+      <a href="/">Home</a> 
+      <a href="/">Our Technology</a> 
+      <a href="/">Our Products</a> 
+      <a href="/">Our customers</a> 
+      <a href="/">How to Order</a> 
+      <a href="/">Contact us</a>
+    </div>
+  </nav>
+</div>
+
+    
+    
+    <section class="hero">
+      <div class="hero-container">
+
+        <div class="column-left">
+        </div>
+
+        <div class="column-right">
+        </div>
+
+        <div class="column-center">
+          <h1>YEZITRONIX GROUP INC.</h1>
+          <p>
+           Specialized in Phantom Technologies Medical Simulation & Training
+          </p>
+          <button>Learn more</button>
+        </div>
+
+      </div>
+    </section>
+
+
+<button class="open-button" onclick="openForm()">Send us a message!</button>
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h2>Send us a message!</h2>
+
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Your Name" name="name" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="company"><b>Organization/Company/Institution</b></label>
+    <input type="text" placeholder="Enter company" name="company" required>
+
+    <button type="submit" class="btn">Submit</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+
+
+// Get the video
+var video = document.getElementById("myVideo");
+ 
+</script>
+
+</script>
+
+
+  </body>
+</html>
