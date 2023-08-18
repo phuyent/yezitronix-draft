@@ -21,7 +21,6 @@ padding-bottom: 20px;
   width: 100%;
   text-align: center;
   font-size: 18px;
- 
 }
 
 
@@ -157,7 +156,7 @@ nav a:hover {
   width: 100%;
   text-align: center;
   font-size: 18px;
- 
+
 }
 
 .column-center h1 {
@@ -196,7 +195,7 @@ nav a:hover {
   border-radius: 10px;
   position: relative;
   margin-top: 150px;
- 
+
 }
 
 .column-center button:hover {
@@ -210,5 +209,3 @@ nav a:hover {
     grid-template-columns: 1fr;
   }
 }
-
-
